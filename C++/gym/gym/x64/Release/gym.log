@@ -1,0 +1,75 @@
+﻿  pch.cpp
+  Admin.cpp
+  Corso.cpp
+  db.cpp
+  dllmain.cpp
+C:\boost\boost_1_75_0\boost\bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+C:\boost\boost_1_75_0\boost\python\suite\indexing\vector_indexing_suite.hpp(176,1): warning C4267: '+=': conversione da 'size_t' a 'long'. Possibile perdita di dati.
+C:\boost\boost_1_75_0\boost\python\suite\indexing\vector_indexing_suite.hpp(170): message : durante la compilazione della funzione membro 'unsigned __int64 boost::python::vector_indexing_suite<std::vector<Membership,std::allocator<Membership>>,false,boost::python::detail::final_vector_derived_policies<Container,false>>::convert_index(Container &,PyObject *)' di modello classe
+          with
+          [
+              Container=std::vector<Membership,std::allocator<Membership>>
+          ]
+C:\boost\boost_1_75_0\boost\python\suite\indexing\indexing_suite.hpp(261): message : vedere il riferimento all'istanza 'unsigned __int64 boost::python::vector_indexing_suite<std::vector<Membership,std::allocator<Membership>>,false,boost::python::detail::final_vector_derived_policies<Container,false>>::convert_index(Container &,PyObject *)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              Container=std::vector<Membership,std::allocator<Membership>>
+          ]
+C:\Users\diego\Desktop\PROGETTO\C++\gym\gym\dllmain.cpp(184): message : vedere il riferimento all'istanza 'boost::python::vector_indexing_suite<std::vector<Membership,std::allocator<Membership>>,false,boost::python::detail::final_vector_derived_policies<Container,false>>' di modello classe di cui è in corso la compilazione
+          with
+          [
+              Container=std::vector<Membership,std::allocator<Membership>>
+          ]
+C:\boost\boost_1_75_0\boost\python\suite\indexing\detail\indexing_suite_detail.hpp(605,1): warning C4267: '+=': conversione da 'size_t' a 'long'. Possibile perdita di dati.
+C:\boost\boost_1_75_0\boost\python\suite\indexing\detail\indexing_suite_detail.hpp(590): message : durante la compilazione della funzione membro 'void boost::python::detail::slice_helper<Container,DerivedPolicies,boost::python::detail::no_proxy_helper<Container,DerivedPolicies,boost::python::detail::container_element<Container,Index,DerivedPolicies>,Index>,Data,Index>::base_get_slice_data(Container &,PySliceObject *,Index &,Index &)' di modello classe
+          with
+          [
+              Container=lista,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<lista,false>,
+              Index=unsigned __int64,
+              Data=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+C:\boost\boost_1_75_0\boost\python\suite\indexing\detail\indexing_suite_detail.hpp(695): message : vedere il riferimento all'istanza 'void boost::python::detail::slice_helper<Container,DerivedPolicies,boost::python::detail::no_proxy_helper<Container,DerivedPolicies,boost::python::detail::container_element<Container,Index,DerivedPolicies>,Index>,Data,Index>::base_get_slice_data(Container &,PySliceObject *,Index &,Index &)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              Container=lista,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<lista,false>,
+              Index=unsigned __int64,
+              Data=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+C:\boost\boost_1_75_0\boost\python\suite\indexing\indexing_suite.hpp(256): message : vedere il riferimento all'istanza 'boost::python::detail::slice_helper<Container,DerivedPolicies,boost::python::detail::no_proxy_helper<Container,DerivedPolicies,boost::python::detail::container_element<Container,Index,DerivedPolicies>,Index>,Data,Index>' di modello classe di cui è in corso la compilazione
+          with
+          [
+              Container=lista,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<lista,false>,
+              Index=unsigned __int64,
+              Data=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+C:\boost\boost_1_75_0\boost\python\suite\indexing\indexing_suite.hpp(253): message : durante la compilazione della funzione membro 'void boost::python::indexing_suite<Container,DerivedPolicies,false,false,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::base_delete_item(Container &,PyObject *)' di modello classe
+          with
+          [
+              Container=lista,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<lista,false>
+          ]
+C:\boost\boost_1_75_0\boost\python\suite\indexing\indexing_suite.hpp(186): message : vedere il riferimento all'istanza 'void boost::python::indexing_suite<Container,DerivedPolicies,false,false,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::base_delete_item(Container &,PyObject *)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              Container=lista,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<lista,false>
+          ]
+C:\boost\boost_1_75_0\boost\python\suite\indexing\vector_indexing_suite.hpp(50): message : vedere il riferimento all'istanza 'boost::python::indexing_suite<Container,DerivedPolicies,false,false,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>' di modello classe di cui è in corso la compilazione
+          with
+          [
+              Container=lista,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<lista,false>
+          ]
+C:\boost\boost_1_75_0\boost\python\suite\indexing\detail\indexing_suite_detail.hpp(619,1): warning C4267: '+=': conversione da 'size_t' a 'long'. Possibile perdita di dati.
+  Istruttore.cpp
+  Membership.cpp
+  User.cpp
+     Creazione della libreria C:\Users\diego\Desktop\PROGETTO\C++\gym\x64\Release\gym.lib e dell'oggetto C:\Users\diego\Desktop\PROGETTO\C++\gym\x64\Release\gym.exp
+  Generazione codice in corso...
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 7319 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generazione codice terminata
+  gym.vcxproj -> C:\Users\diego\Desktop\PROGETTO\C++\gym\x64\Release\gym.pyd
